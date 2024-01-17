@@ -1,0 +1,49 @@
+h1 {
+	font-size: 3em;
+	font-style: italic;
+}
+
+.error {
+	color: #ff0000;
+}
+
+div.texto p span {
+	font-style: italic;
+	color: #ff0000;
+}
+
+div#textoprincipal {
+	text-align: justify;
+
+}
+
+div#textoprincipal p span{
+	font-style: italic;
+	color: #ff0000;
+}
+
+div#textoprincipal {
+	
+}
+
+div#textoprincipal >p {
+	color: blue;
+	border: 5px solid black;
+}
+
+div#textoprincipal div.lista {
+	
+}
+
+div#textoprincipal div.lista ul li p {
+	
+	color: blue;
+}
+
+div#textoprincipal h2+p {
+	color: pink;
+}
+
+p.error~div ul {
+	background: purple;
+}
